@@ -9,7 +9,7 @@ First install speedtest-cli (https://github.com/sivel/speedtest-cli):
 
 `while true; do speedtest-cli --csv >> speedtest.csv; sleep 3600; done`
 
-The header of CSV file is:Server ID,Sponsor,Server Name,Timestamp,Distance,Ping,Download,Upload,Share,IP Address
+The header of CSV file is: Server ID,Sponsor,Server Name,Timestamp,Distance,Ping,Download,Upload,Share,IP Address.
 
 
 At the same time consider uploading the results, for external consultations, to an FTP space:
