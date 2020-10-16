@@ -1,5 +1,6 @@
 # Recursively Speedtest
-## Launch speedtest, recursively, every X seconds, and write results in CSV file.
+## Constantly monitor the speed of your internet network.
+## An easy way to launch speedtest, recursively, every X seconds, and write results in CSV file.
 
 First install speedtest-cli (https://github.com/sivel/speedtest-cli):
 
