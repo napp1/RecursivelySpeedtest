@@ -5,7 +5,7 @@ First install speedtest-cli (https://github.com/sivel/speedtest-cli):
 
 `pip install speedtest-cli`
 
-`speedtest.sh` just runs speedtest-cli every X seconds (3600 i.e.) and saves the results in CSV file:
+Then the bash script `speedtest.sh`: it just runs speedtest-cli every X seconds (3600 i.e.) and saves the results in CSV file:
 
 `while true; do speedtest-cli --csv >> speedtest.csv; sleep 3600; done`
 
